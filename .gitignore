@@ -1,0 +1,65 @@
+# General
+.DS_Store
+*.log
+*.tmp
+
+# Flutter / Dart
+.dart_tool/
+.packages
+.pub/
+build/
+coverage/
+flutter_*.png
+linked_*.dill
+
+# Keep pubspec.lock for apps; it's important for reproducible builds
+# (do not ignore pubspec.lock)
+
+# Editor / IDE
+.idea/
+.vscode/
+*.iml
+*.ipr
+*.iws
+
+# Android
+android/.gradle/
+android/captures/
+android/local.properties
+android/key.properties
+android/app/google-services.json
+
+# iOS
+ios/Flutter/.last_build_id
+ios/Flutter/ephemeral/
+ios/Flutter/flutter_export_environment.sh
+ios/Runner/GeneratedPluginRegistrant.*
+ios/ServiceDefinitions.json
+ios/Pods/
+ios/.symlinks/
+ios/build/
+ios/profile/
+ios/Runner.xcodeproj/project.xcworkspace/xcuserdata/
+ios/Runner.xcworkspace/xcuserdata/
+ios/Runner/GoogleService-Info.plist
+
+# macOS
+macos/Flutter/ephemeral/
+macos/Pods/
+macos/Runner/GeneratedPluginRegistrant.*
+macos/Runner.xcodeproj/project.xcworkspace/xcuserdata/
+macos/Runner.xcworkspace/xcuserdata/
+
+# Web
+lib/generated_plugin_registrant.dart
+
+# Linux
+linux/flutter/ephemeral/
+
+# Windows
+windows/flutter/ephemeral/
+
+# Env / Secrets
+.env
+.env.*
+
